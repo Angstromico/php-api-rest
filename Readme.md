@@ -15,7 +15,6 @@ The goal is to understand how to structure an `API`, handle `HTTP` methods, work
 
 - Simple routing system
 
-``pgsql
 📂 Project Structure
 project/
 │── config/
@@ -31,7 +30,6 @@ project/
 │   └── index.php
 │
 └── README.md
-``
 
 ## 🛠 Requirements
 
