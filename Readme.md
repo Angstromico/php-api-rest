@@ -17,6 +17,7 @@ The goal is to understand how to structure an `API`, handle `HTTP` methods, work
 
 ## 📂 Project Structure
 
+``bash
 project/
 ├── config/
 │   └── Database.php          # Database connection and configuration
@@ -28,6 +29,7 @@ project/
 ├── public/
 │   └── index.php             # Single entry point for all API requests (front controller)
 └── README.md                 # Project information and documentation
+``
 
 ## 🛠 Requirements
 
