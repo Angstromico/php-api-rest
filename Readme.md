@@ -15,7 +15,7 @@ The goal is to understand how to structure an `API`, handle `HTTP` methods, work
 
 - Simple routing system
 
-📂 Project Structure
+## 📂 Project Structure
 project/
 │── config/
 │   └── Database.php
@@ -66,5 +66,3 @@ You can extend it with authentication (JWT), middleware, or more advanced routin
 📝 License
 
 This project is free to use and modify.
-
-If you want, I can also generate the full API skeleton, including folders, routing logic, controller examples, and CRUD code.
