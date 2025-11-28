@@ -1,3 +1,5 @@
 <?php 
 
- var_dump($_SERVER["REQUEST_URI"]);
+ $parts = explode('/', $_SERVER["REQUEST_URI"]);
+
+ print_r($parts);
