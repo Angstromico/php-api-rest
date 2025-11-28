@@ -4,7 +4,11 @@
 
  $parts = explode('/', $_SERVER["REQUEST_URI"]);
 
- if($parts[1] != "products"){
+ if($parts[2] != "products"){
     http_response_code($NOT_FOUND);
     exit;
  }
+
+ $id = $parts[3] ?? null;
+
+ var_dump($id);
