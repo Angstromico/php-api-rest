@@ -16,20 +16,18 @@ The goal is to understand how to structure an `API`, handle `HTTP` methods, work
 - Simple routing system
 
 ## 📂 Project Structure
+
 project/
-│── config/
-│   └── Database.php
-│
-│── src/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   └── helpers/
-│
-│── public/
-│   └── index.php
-│
-└── README.md
+├── config/
+│   └── Database.php          # Database connection and configuration
+├── src/
+│   ├── controllers/          # Handles request logic, interacts with models
+│   ├── models/               # Data access and business logic (e.g., classes for Post, User)
+│   ├── routes/               # Defines API endpoints and maps them to controllers
+│   └── helpers/              # Utility functions and reusable code
+├── public/
+│   └── index.php             # Single entry point for all API requests (front controller)
+└── README.md                 # Project information and documentation
 
 ## 🛠 Requirements
 
