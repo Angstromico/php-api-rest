@@ -1,3 +1,3 @@
 <?php 
 
- echo "Hello from api";
+ var_dump($_SERVER["REQUEST_URI"]);
