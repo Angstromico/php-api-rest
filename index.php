@@ -1,5 +1,11 @@
 <?php 
 
+ declare (strict_types= 1);
+
+ spl_autoload_register(function($class) {
+    require __DIR__ . "/src/controllers/$class.php";
+ });
+
  include "./http_variables.php";
 
  $parts = explode('/', $_SERVER["REQUEST_URI"]);
@@ -11,4 +17,6 @@
 
  $id = $parts[3] ?? null;
 
- var_dump($id);
+ $controller = new ProductController();
+
+ $controller->processRequest($_SERVER["REQUEST_METHOD"], $id);
