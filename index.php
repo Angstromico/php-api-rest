@@ -6,6 +6,8 @@
     require __DIR__ . "/src/controllers/$class.php";
  });
 
+ header("Content-type: application/json; charset=UTF-8");
+
  include "./http_variables.php";
 
  $parts = explode('/', $_SERVER["REQUEST_URI"]);
